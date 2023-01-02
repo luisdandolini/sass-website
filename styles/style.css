@@ -96,4 +96,47 @@ table {
   padding: 1.5rem 4rem;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container-about .container-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  padding: 6rem;
+}
+.container-about .container-numbers .numbers-communities h3,
+.container-about .container-numbers .numbers-messages h3 {
+  font-size: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.container-about .container-numbers .numbers-communities p,
+.container-about .container-numbers .numbers-messages p {
+  font-family: "Open Sans", sans-serif;
+  color: #aaa4a4;
+}
+.container-about .container-users .container-grow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.container-about .container-users .container-grow img {
+  width: 450px;
+}
+.container-about .container-users .container-grow h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.container-about .container-users .container-grow p {
+  width: 450px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
