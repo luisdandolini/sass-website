@@ -139,4 +139,61 @@ table {
   text-align: justify;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
+}
+
+.container-footer {
+  background-color: hsl(192deg, 100%, 9%);
+}
+.container-footer .container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 6rem 12rem;
+}
+.container-footer .container-content .logo-footer {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 0.5rem;
+}
+.container-footer .container-content .contact {
+  color: #fff;
+  margin: 1rem 0;
+  max-width: 250px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+}
+.container-footer .container-content .icons {
+  color: #fff;
+  margin: 1rem 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+}
+.container-footer .container-content .icons img {
+  margin-right: 1rem;
+}
+.container-footer .container-content .newsletter {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+}
+.container-footer .container-content input {
+  width: 200px;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  margin-right: 1rem;
+}
+.container-footer .container-content button {
+  color: #fff;
+  background-color: hsl(322deg, 100%, 66%);
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+.container-footer .container-content button:hover {
+  background-color: hsl(321deg, 100%, 78%);
 }/*# sourceMappingURL=style.css.map */
